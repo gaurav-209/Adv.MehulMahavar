@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "🏠",
+    "title": "Property & Civil Cases",
+    "description": "Expert handling of civil disputes and property-related matters."
+  },
+  {
+    "icon": "🛡️",
+    "title": "Criminal Law",
+    "description": "Strong representation for criminal cases to protect your rights."
+  },
+  {
+    "icon": "👪",
+    "title": "Matrimonial & Family Law",
+    "description": "Includes matrimonial disputes, family cases, divorce, and court marriage services."
+  },
+  {
+    "icon": "💼",
+    "title": "Corporate Law",
+    "description": "Comprehensive legal solutions for corporate and business matters."
+  },
+  {
+    "icon": "⚖️",
+    "title": "Arbitration & Litigation",
+    "description": "Resolving disputes through arbitration and representing clients in litigation cases."
+  },
+  {
+    "icon": "🏛️",
+    "title": "High Court Representation",
+    "description": "Specialized legal services and representation in high court cases."
+  }
+]

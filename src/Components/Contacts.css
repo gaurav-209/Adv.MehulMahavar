@@ -1,0 +1,23 @@
+.contact-details {
+    background-color: #FAF5E6;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 3px solid #d4af37;
+  }
+  
+  .contact-details h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .map-section iframe {
+    border: 0;
+  }
+  

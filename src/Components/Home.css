@@ -1,0 +1,169 @@
+.hero-banner {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/images/Mehul_Mahavar_Hero_Banner_Image.jpeg);
+    background-position: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffc400;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: #000;
+    background: #ffc400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #555;
+}
+
+/* About Section */
+
+.about-container {
+    display: flex;
+    width: 100%;
+    background-color: #dcdada;
+}
+
+.about-left {
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+}
+
+.about-left img {
+    border: 8px solid #B8860B;
+    border-radius: 5px;
+}
+
+.about-right {
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #FAF5E6;
+    color: #333;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #D4AF37;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #B8860B;
+}
+
+#services {
+    padding: 50px 20px;
+    background-color: #FAF5E6;
+    /* Light beige */
+    color: #333;
+    /* Dark gray text */
+    text-align: center;
+}
+
+#services p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    color: #D4AF37;
+    /* Gold heading */
+    margin-bottom: 10px;
+}
+
+.more-services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-more {
+    background-color: #d4af37;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-more:hover {
+    background-color: #b68b2c;
+}
+
+@media only screen and (max-width: 1024px){
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left, .about-right{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .about-left img{
+        width: 300px;
+    }
+
+    .about-right, .about-left{
+        padding: 0;
+    }
+}

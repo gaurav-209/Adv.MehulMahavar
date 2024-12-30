@@ -1,0 +1,40 @@
+.services-section {
+    background-color: #FAF5E6;
+    padding: 40px 100px;
+  }
+  
+  .services-section h2 {
+    font-size: 2rem;
+    color: #b8860b;
+    margin-bottom: 20px;
+  }
+  
+  .services-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+    padding: 0 0px;
+  }
+  
+  .practice-areas-list {
+    list-style: none;
+    padding: 0 30px;
+  }
+  
+  .practice-area-item {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    position: relative;
+  }
+  
+  .practice-area-item::before {
+    content: '\2705'; /* Unicode for check marks */
+    font-size: 1rem; /* Size of the check mark */
+    color: #b8860b; /* Gold color */
+    position: absolute;
+    left: -40px; /* Adjust position for the check mark */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  

@@ -1,0 +1,89 @@
+footer,footer p,footer h3{
+    color: white;
+    background-color: black;
+    display: flex;
+}
+
+footer h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+footer{
+    padding: 50px;
+    padding-left: 120px;
+}
+
+.para{
+    color: white;
+    width: 25%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.para p{
+    font-size: 1.2rem;
+}
+
+.practice-areas{
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+.practice-areas ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.useful-links a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.useful-links a:hover{
+    color: blueviolet;
+}
+
+.keepInTouch{
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left ;
+}
+
+.keepInTouch p{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    footer{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+    }   
+    
+    .keepInTouch, .para, .practice-areas, .useful-links{
+        width: 30%;
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 768px){
+    .keepInTouch, .para, .practice-areas, .useful-links{
+        width: 80%;
+        padding-left: 30px;
+    }
+}

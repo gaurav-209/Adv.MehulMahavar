@@ -1,0 +1,77 @@
+.hero-section {
+    background: linear-gradient(90deg, #d4af37, #b8860b);
+    /* Gold gradient */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    height: 200px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #f0e68c;
+    /* Lighter gold shade for contrast */
+}
+
+.about-father {
+    background-color: #f8f9fa;
+    /* Light gray for contrast */
+    color: #333;
+    /* Dark text for readability */
+    padding: 40px 20px;
+    text-align: left;
+    margin: 20px auto;
+    border-left: 5px solid #d4af37;
+    /* Gold accent */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.about-father h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b8860b;
+    /* Dark gold */
+}
+
+.about-father p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.numbers {
+    display: inline-flex;
+    padding: 20px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mission-section {
+    background-color: #FAF5E6;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 3px solid #d4af37;
+    /* Gold accent */
+}
+
+.mission-section h2 {
+    font-size: 2rem;
+    color: #b8860b;
+    margin-bottom: 20px;
+}
+
+.mission-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
